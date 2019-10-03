@@ -1,5 +1,5 @@
 Package: babelwhale
-Version: 1.0.0
+Version: 1.0.1
 Title: Talking to 'Docker' and 'Singularity' Containers
 Description: Provides a unified interface to interact with 'docker' and 'singularity' containers.
    You can execute a command inside a container, mount a volume or copy a file.
@@ -31,11 +31,11 @@ ByteCompile: true
 RoxygenNote: 6.1.1
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2019-07-05 07:07:27 UTC; rcannood
+Packaged: 2019-10-03 13:03:07 UTC; rcannood
 Author: Robrecht Cannoodt [aut] (<https://orcid.org/0000-0003-3641-729X>,
     rcannood),
   Wouter Saelens [aut, cre] (<https://orcid.org/0000-0002-7114-6248>,
     zouter)
 Maintainer: Wouter Saelens <wouter.saelens@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-07-09 14:50:04 UTC
+Date/Publication: 2019-10-03 13:20:03 UTC
