@@ -23,11 +23,11 @@ for (config in configs) {
 
     stderr <- output$stderr
     if (stderr != "") {
-      stderr <- stderr %>% strsplit("\n") %>% .[!grepl("^INFO: ", .)]
+      stderr <- stderr %>% strsplit("\n") %>% first() %>% .[!grepl("^INFO: ", .)]
     } else {
       stderr <- c()
     }
 
-    expect_true(length(stderr) == 0)
+    expect_true(length(stderr) == 0, info = paste0("Content of stderr = {\n", output$stderr, "}"))
   })
 }

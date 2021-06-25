@@ -1,8 +1,8 @@
-1aef540fcd7f2f013c9b618a5b2a2be1 *DESCRIPTION
+333d0220267d6238ae598ac1a474af86 *DESCRIPTION
 ef3d9f056adaa322680184035912700f *LICENSE
 d28679f80aedc486f78b96abd4e90389 *NAMESPACE
-baca1c05da9ba32014e3a3bb21d7f711 *NEWS.md
-55f3ea2f74776758b7587d9b46f2df91 *R/config_create.R
+29e66b047474a732f9b5941112d10bbb *NEWS.md
+950e340cdae40b43cce77f3f7ae610d3 *R/config_create.R
 ecae21c4199ba937b924a3c9cddaaf01 *R/config_default.R
 9134e8b64ba7eaa581ebe54be97300a7 *R/copy_file.R
 d115d03a9b7e7652d8185595447dd6b6 *R/helper_fix_paths.R
@@ -17,7 +17,7 @@ e734c08406ccc76942fe771fdc4005a5 *R/read_file.R
 2cf99782be9942598c48ab47c068784a *R/singularity_image_path.R
 7c34ea18e611671f9273af9bebe4a5e7 *R/test_docker_installation.R
 c8e64993cefd3f37089fdb13758dbf2c *R/test_singularity_installation.R
-3555cb007151c15ee3f6a2d41288f61c *README.md
+9b1f42fe03b8871747bd157471563eac *README.md
 30010af65b31a39b9280c95c2627cbc9 *man/babelwhale.Rd
 85965f72fae163a2d61c46fba778bd76 *man/copy_file.Rd
 4e833645f851298911685e4c8026ad7f *man/create_config.Rd
@@ -34,5 +34,5 @@ c2db966217c2dbb8553e26b7d9e93eec *tests/testthat/helper-skip.R
 9edbfd9a61c1b3bc02aeb4b2107cebce *tests/testthat/test-config_default.R
 ce109ce99bee02fdb5e077aa95edfd52 *tests/testthat/test-copy_file.R
 75c22b14e3bfe0bd1a36f4debf790cdb *tests/testthat/test-helper_processx.R
-c2e37a498cc4985c16cd1fb1d691a6c1 *tests/testthat/test-run_docker.R
+5fe0fd2b6428bc949e33547334a3b9ca *tests/testthat/test-run_docker.R
 0b73a3d366bf73f9041b92551d5111ad *tests/testthat/test-test_docker_installation.R
